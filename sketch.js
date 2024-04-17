@@ -4,8 +4,27 @@ function setup() {
   
   function draw() {
     background(220);
-    background("pink")
+    background("purple")
+    fill('pink')
     ellipse(200,200,100,100)
+    stroke('pink')
+    strokeWeight(2)
+    
+
+    fill('black')
+    ellipse(220,190, 20,20)
+    
+    fill('black')
+    ellipse(180,190,20,20)
+
+    fill('black')
+    ellipse(200,215,40,40)
+
+    fill('pink')
+    ellipse(200,210,35,35)
+
+
+
     // strokeWeight(5)
     // fill('white')
     // ellipse(175, 300, 50, 30)
